@@ -151,7 +151,7 @@
     };
   };
   chosen {
-    /zmk,physical-layout = &charybdis_6col_layout;/
+    zmk,physical-layout = &charybdis_6col_layout;
   };
 
   keymap {
@@ -183,7 +183,7 @@
       bindings = <
         &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans
         &trans   &trans   &trans   &trans    &trans    &trans            &trans &trans   &trans   &trans   &trans     &trans 
-        &trans   &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3 &trans     &trans
+        &trans   &kp LGUI &kp LALT &kp LSHFT &kp LCTRL &trans            &trans &trans   &trans   &trans   &trans     &trans
         &trans   &trans   &trans   &mo 3     &mo 2     &trans            &trans &mkp MB1 &mkp MB2 &mkp MB3   &trans     &trans
                           &mkp MB1  &mkp MB2  &mkp MB3          &trans &trans
                           &trans &trans &trans
@@ -291,6 +291,7 @@
     };
   };
 };
+
 
 
 
