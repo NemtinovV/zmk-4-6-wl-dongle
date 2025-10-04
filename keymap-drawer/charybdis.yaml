@@ -96,7 +96,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '&mkp MB3'
+  - Function
   - Ctl+ C
   - Ctl+ V
   - {t: ▽, type: trans}
@@ -214,7 +214,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Ctl+Sft+ KP MINUS
-  - KP 1
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
@@ -256,8 +256,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Function, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -265,9 +265,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
