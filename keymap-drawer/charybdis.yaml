@@ -52,10 +52,10 @@ layers:
   - {t: BSPC, h: LSHFT}
   - {t: SPACE, h: Symbol}
   - {t: DEL, h: LCTRL}
-  - {t: ▽, type: trans}
-  - {t: SPACE, h: Number}
-  - LANG1
-  - LANG2
+  - '3'
+  - '4'
+  - '1'
+  - '2'
   - RCTRL
   Mouse:
   - {t: ▽, type: trans}
@@ -106,9 +106,9 @@ layers:
   - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -211,7 +211,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '-'
@@ -224,7 +224,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
