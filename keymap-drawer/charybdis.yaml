@@ -52,10 +52,10 @@ layers:
   - {t: BSPC, h: LSHFT}
   - {t: SPACE, h: Symbol}
   - {t: DEL, h: LCTRL}
-  - {t: ▽, type: trans}
-  - LANG2
   - '1'
   - {t: SPACE, h: Number}
+  - {t: ▽, type: trans}
+  - LANG2
   - RCTRL
   Mouse:
   - {t: ▽, type: trans}
@@ -224,9 +224,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Function:
   - {t: ▽, type: trans}
