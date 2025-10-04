@@ -1,16 +1,16 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   Base:
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - '!'
+  - '@'
+  - '#'
+  - $
+  - '%'
+  - ^
+  - '&'
+  - '*'
+  - (
+  - )
   - '-'
   - '='
   - TAB
@@ -54,7 +54,7 @@ layers:
   - {t: DEL, h: LCTRL}
   - '1'
   - {t: SPACE, h: Number}
-  - {t: ▽, type: trans}
+  - LANG2
   - LANG2
   - RCTRL
   Mouse:
@@ -97,8 +97,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+ C
+  - Ctl+ V
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp MB1'
@@ -133,7 +133,7 @@ layers:
   - UP
   - ENTER
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -158,8 +158,8 @@ layers:
   - F11
   - DEV TOOLS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PREV
+  - NEXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -172,57 +172,57 @@ layers:
   - {t: ▽, type: trans}
   - RGUI
   Number:
+  - Ctl+Sft+ ~
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - BOOT LDR
-  - '&sys_reset'
+  - INS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - '&'
-  - KP MULTIPLY
-  - (
-  - )
-  - DEL
+  - _
+  - KP SLASH
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - PG DN
+  - {t: ▽, type: trans}
+  - LNLCK
+  - KP 7
+  - KP 8
+  - KP 9
+  - {t: ▽, type: trans}
+  - KP ASTERISK
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - PG DN
+  - Ctl+Sft+ KP PLUS
   - {t: ▽, type: trans}
+  - KP 4
+  - KP 5
+  - KP 6
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - KP MINUS
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '-'
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
+  - Ctl+Sft+ KP MINUS
+  - KP 1
+  - KP 1
+  - KP 2
+  - KP 3
+  - KP DOT
+  - KP PLUS
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+ LSHFT
+  - Gui+ SPACE
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
