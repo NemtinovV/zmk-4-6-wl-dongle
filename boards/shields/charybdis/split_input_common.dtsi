@@ -37,7 +37,7 @@
 
     move {
       //layers = <DEF MOUSE>;
-      layers = <MOUSE>;
+      //ьlayers = <MOUSE>;
       input-processors = <&auto_mouse_layer MOUSE 600>,<&zip_xy_scaler 1 2>;
     };
   };
@@ -45,7 +45,7 @@
   auto_mouse_layer: auto_mouse_layer {
     compatible = "zmk,input-processor-temp-layer";
     #input-processor-cells = <2>;
-    require-prior-idle-ms = <50>;
+    require-prior-idle-ms = <25>;
     #excluded-positions = <30 31 32 16 17 18 10 11 12 13 22 23>;
   };
 };
