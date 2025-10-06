@@ -38,7 +38,7 @@
     move {
       //layers = <DEF MOUSE>;
       layers = <MOUSE>;
-      input-processors = <&auto_mouse_layer MOUSE 500>;      
+      input-processors = <&auto_mouse_layer MOUSE 500><&zip_xy_scaler 1 3>;      
     };
   };
 
