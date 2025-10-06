@@ -1,4 +1,4 @@
-#define ZMK_POINTING_DEFAULT_MOVE_VAL 500
+#define ZMK_POINTING_DEFAULT_MOVE_VAL 400
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -300,6 +300,7 @@
     };
   };
 };
+
 
 
 
