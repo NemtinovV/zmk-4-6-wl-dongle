@@ -48,14 +48,14 @@ layers:
   - ','
   - .
   - /
-  - \
+  - {t: \, h: Mouse}
   - {t: BSPC, h: LSHFT}
   - {t: SPACE, h: Symbol}
   - {t: DEL, h: LCTRL}
-  - '1'
+  - Gui+ L
   - {t: SPACE, h: Number}
-  - LANG2
-  - LANG2
+  - {t: ▽, type: trans}
+  - Gui+ SPACE
   - RCTRL
   Mouse:
   - {t: ▽, type: trans}
@@ -103,7 +103,7 @@ layers:
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
-  - '&mkp MB3'
+  - Function
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
